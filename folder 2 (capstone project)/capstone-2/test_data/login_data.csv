@@ -1,0 +1,5 @@
+email,password,expected_status
+amotooricap9@gmail.com,12345,success
+invalid_user_99912@test.com,wrongpass123,failure
+amotooricap9@gmail.com,wrongpass999,failure
+,12345,failure

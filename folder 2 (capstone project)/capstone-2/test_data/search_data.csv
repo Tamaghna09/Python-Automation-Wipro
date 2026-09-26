@@ -1,0 +1,4 @@
+product_name,expected_result
+MacBook,found
+iPhone,found
+FitbitSmartwatch,not_found

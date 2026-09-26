@@ -1,0 +1,239 @@
+2026-09-19 16:22:12 | INFO     | [DriverFactory] : Initializing WebDriver for browser: 'chrome' (Headless=False)
+2026-09-19 16:22:18 | INFO     | [Conftest] : Opening Base URL: https://tutorialsninja.com/demo/
+2026-09-19 16:22:20 | INFO     | [TestLogin] : === Starting test_invalid_login_data_driven ===
+2026-09-19 16:22:20 | INFO     | [TestLogin] : Testing invalid login for email: 'invalid_user_99912@test.com'
+2026-09-19 16:22:20 | INFO     | [HomePage] : Navigating to Login page from Home page
+2026-09-19 16:22:20 | INFO     | [HomePage] : Clicking element: ('css selector', "a[title='My Account']")
+2026-09-19 16:22:21 | INFO     | [HomePage] : Clicking element: ('link text', 'Login')
+2026-09-19 16:22:22 | INFO     | [LoginPage] : Attempting login with email: invalid_user_99912@test.com
+2026-09-19 16:22:22 | INFO     | [LoginPage] : Typing into element: ('id', 'input-email')
+2026-09-19 16:22:22 | INFO     | [LoginPage] : Typing into element: ('id', 'input-password')
+2026-09-19 16:22:22 | INFO     | [LoginPage] : Clicking element: ('css selector', "input[value='Login']")
+2026-09-19 16:22:24 | INFO     | [LoginPage] : Retrieved text 'Warning: No match for E-Mail Address and/or Password.' from element: ('css selector', 'div.alert-danger')
+2026-09-19 16:22:24 | INFO     | [TestLogin] : Testing invalid login for email: 'amotooricap9@gmail.com'
+2026-09-19 16:22:24 | INFO     | [HomePage] : Navigating to Login page from Home page
+2026-09-19 16:22:24 | INFO     | [HomePage] : Clicking element: ('css selector', "a[title='My Account']")
+2026-09-19 16:22:24 | INFO     | [HomePage] : Clicking element: ('link text', 'Login')
+2026-09-19 16:22:25 | INFO     | [LoginPage] : Attempting login with email: amotooricap9@gmail.com
+2026-09-19 16:22:25 | INFO     | [LoginPage] : Typing into element: ('id', 'input-email')
+2026-09-19 16:22:25 | INFO     | [LoginPage] : Typing into element: ('id', 'input-password')
+2026-09-19 16:22:25 | INFO     | [LoginPage] : Clicking element: ('css selector', "input[value='Login']")
+2026-09-19 16:22:27 | INFO     | [LoginPage] : Retrieved text 'Warning: No match for E-Mail Address and/or Password.' from element: ('css selector', 'div.alert-danger')
+2026-09-19 16:22:27 | INFO     | [TestLogin] : Testing invalid login for email: ''
+2026-09-19 16:22:27 | INFO     | [HomePage] : Navigating to Login page from Home page
+2026-09-19 16:22:27 | INFO     | [HomePage] : Clicking element: ('css selector', "a[title='My Account']")
+2026-09-19 16:22:27 | INFO     | [HomePage] : Clicking element: ('link text', 'Login')
+2026-09-19 16:22:27 | INFO     | [LoginPage] : Attempting login with email: 
+2026-09-19 16:22:27 | INFO     | [LoginPage] : Typing into element: ('id', 'input-email')
+2026-09-19 16:22:28 | INFO     | [LoginPage] : Typing into element: ('id', 'input-password')
+2026-09-19 16:22:28 | INFO     | [LoginPage] : Clicking element: ('css selector', "input[value='Login']")
+2026-09-19 16:22:30 | INFO     | [LoginPage] : Retrieved text 'Warning: No match for E-Mail Address and/or Password.' from element: ('css selector', 'div.alert-danger')
+2026-09-19 16:22:30 | INFO     | [TestLogin] : === Finished test_invalid_login_data_driven successfully ===
+2026-09-19 16:22:33 | INFO     | [Conftest] : Tearing down WebDriver session
+2026-09-19 16:22:50 | INFO     | [DriverFactory] : Initializing WebDriver for browser: 'chrome' (Headless=False)
+2026-09-19 16:22:52 | INFO     | [Conftest] : Opening Base URL: https://tutorialsninja.com/demo/
+2026-09-19 16:22:54 | INFO     | [TestLogin] : === Starting test_login_without_credentials ===
+2026-09-19 16:22:54 | INFO     | [HomePage] : Navigating to Login page from Home page
+2026-09-19 16:22:54 | INFO     | [HomePage] : Clicking element: ('css selector', "a[title='My Account']")
+2026-09-19 16:22:54 | INFO     | [HomePage] : Clicking element: ('link text', 'Login')
+2026-09-19 16:22:55 | INFO     | [LoginPage] : Clicking element: ('css selector', "input[value='Login']")
+2026-09-19 16:22:56 | INFO     | [TestLogin] : === Finished test_login_without_credentials successfully ===
+2026-09-19 16:23:00 | INFO     | [Conftest] : Tearing down WebDriver session
+2026-09-19 16:23:17 | INFO     | [DriverFactory] : Initializing WebDriver for browser: 'chrome' (Headless=False)
+2026-09-19 16:23:19 | INFO     | [Conftest] : Opening Base URL: https://tutorialsninja.com/demo/
+2026-09-19 16:23:20 | INFO     | [TestLogin] : === Starting test_valid_login ===
+2026-09-19 16:23:20 | INFO     | [HomePage] : Navigating to Login page from Home page
+2026-09-19 16:23:20 | INFO     | [HomePage] : Clicking element: ('css selector', "a[title='My Account']")
+2026-09-19 16:23:20 | INFO     | [HomePage] : Clicking element: ('link text', 'Login')
+2026-09-19 16:23:21 | INFO     | [LoginPage] : Attempting login with email: amotooricap9@gmail.com
+2026-09-19 16:23:21 | INFO     | [LoginPage] : Typing into element: ('id', 'input-email')
+2026-09-19 16:23:21 | INFO     | [LoginPage] : Typing into element: ('id', 'input-password')
+2026-09-19 16:23:21 | INFO     | [LoginPage] : Clicking element: ('css selector', "input[value='Login']")
+2026-09-19 16:24:02 | INFO     | [Conftest] : Tearing down WebDriver session
+2026-09-19 16:34:05 | INFO     | [DriverFactory] : Initializing WebDriver for browser: 'chrome' (Headless=False)
+2026-09-19 16:34:09 | INFO     | [Conftest] : Opening Base URL: https://tutorialsninja.com/demo/
+2026-09-19 16:34:25 | INFO     | [TestSearch] : === Starting test_search_existing_product ===
+2026-09-19 16:34:25 | INFO     | [HomePage] : Searching for product: 'MacBook'
+2026-09-19 16:34:25 | INFO     | [HomePage] : Typing into element: ('name', 'search')
+2026-09-19 16:34:26 | INFO     | [HomePage] : Clicking element: ('css selector', '#search button')
+2026-09-19 16:34:47 | INFO     | [Conftest] : Tearing down WebDriver session
+2026-09-19 16:37:35 | INFO     | [DriverFactory] : Initializing WebDriver for browser: 'chrome' (Headless=False)
+2026-09-19 16:37:38 | INFO     | [Conftest] : Opening Base URL: https://tutorialsninja.com/demo/
+2026-09-19 16:37:44 | INFO     | [TestSearch] : === Starting test_search_existing_product ===
+2026-09-19 16:37:44 | INFO     | [HomePage] : Searching for product: 'MacBook'
+2026-09-19 16:37:44 | INFO     | [HomePage] : Typing into element: ('name', 'search')
+2026-09-19 16:37:45 | INFO     | [HomePage] : Clicking element: ('css selector', '#search button')
+2026-09-19 16:38:05 | INFO     | [Conftest] : Tearing down WebDriver session
+2026-09-19 16:40:11 | INFO     | [DriverFactory] : Initializing WebDriver for browser: 'chrome' (Headless=False)
+2026-09-19 16:40:13 | INFO     | [Conftest] : Opening Base URL: https://tutorialsninja.com/demo/
+2026-09-19 16:40:25 | INFO     | [TestSearch] : === Starting test_search_existing_product ===
+2026-09-19 16:40:25 | INFO     | [HomePage] : Searching for product: 'MacBook'
+2026-09-19 16:40:25 | INFO     | [HomePage] : Typing into element: ('name', 'search')
+2026-09-19 16:40:26 | INFO     | [HomePage] : Clicking element: ('css selector', '#search button')
+2026-09-19 16:40:48 | INFO     | [Conftest] : Tearing down WebDriver session
+2026-09-19 16:49:47 | INFO     | [DriverFactory] : Initializing WebDriver for browser: 'chrome' (Headless=False)
+2026-09-19 16:49:50 | INFO     | [Conftest] : Opening Base URL: https://tutorialsninja.com/demo/
+2026-09-19 16:49:51 | INFO     | [TestSearch] : === Starting test_search_existing_product ===
+2026-09-19 16:49:51 | INFO     | [HomePage] : Searching for product: 'MacBook'
+2026-09-19 16:49:51 | INFO     | [HomePage] : Typing into element: ('name', 'search')
+2026-09-19 16:49:52 | INFO     | [HomePage] : Clicking element: ('css selector', '#search button')
+2026-09-19 16:50:12 | INFO     | [Conftest] : Tearing down WebDriver session
+2026-09-19 16:51:10 | INFO     | [DriverFactory] : Initializing WebDriver for browser: 'chrome' (Headless=False)
+2026-09-19 16:51:12 | INFO     | [Conftest] : Opening Base URL: https://tutorialsninja.com/demo/
+2026-09-19 16:51:14 | INFO     | [TestSearch] : === Starting test_search_existing_product ===
+2026-09-19 16:51:14 | INFO     | [HomePage] : Searching for product: 'MacBook'
+2026-09-19 16:51:14 | INFO     | [HomePage] : Typing into element: ('name', 'search')
+2026-09-19 16:51:14 | INFO     | [HomePage] : Clicking element: ('css selector', '#search button')
+2026-09-19 16:51:38 | INFO     | [Conftest] : Tearing down WebDriver session
+2026-09-19 16:53:27 | INFO     | [DriverFactory] : Initializing WebDriver for browser: 'chrome' (Headless=False)
+2026-09-19 16:53:30 | INFO     | [TestLogin] : === Starting test_invalid_login_data_driven ===
+2026-09-19 16:53:30 | INFO     | [TestLogin] : Testing invalid login for email: 'invalid_user_99912@test.com'
+2026-09-19 16:53:31 | INFO     | [HomePage] : Navigating to Login page from Home page
+2026-09-19 16:53:31 | INFO     | [HomePage] : Clicking element: ('css selector', "a[title='My Account']")
+2026-09-19 16:53:31 | INFO     | [HomePage] : Clicking element: ('link text', 'Login')
+2026-09-19 16:53:31 | INFO     | [LoginPage] : Attempting login with email: invalid_user_99912@test.com
+2026-09-19 16:53:31 | INFO     | [LoginPage] : Typing into element: ('id', 'input-email')
+2026-09-19 16:53:32 | INFO     | [LoginPage] : Typing into element: ('id', 'input-password')
+2026-09-19 16:53:32 | INFO     | [LoginPage] : Clicking element: ('css selector', "input[value='Login']")
+2026-09-19 16:53:34 | INFO     | [LoginPage] : Retrieved text 'Warning: No match for E-Mail Address and/or Password.' from element: ('css selector', 'div.alert-danger')
+2026-09-19 16:53:34 | INFO     | [TestLogin] : Testing invalid login for email: 'amotooricap9@gmail.com'
+2026-09-19 16:53:34 | INFO     | [HomePage] : Navigating to Login page from Home page
+2026-09-19 16:53:34 | INFO     | [HomePage] : Clicking element: ('css selector', "a[title='My Account']")
+2026-09-19 16:53:34 | INFO     | [HomePage] : Clicking element: ('link text', 'Login')
+2026-09-19 16:53:35 | INFO     | [LoginPage] : Attempting login with email: amotooricap9@gmail.com
+2026-09-19 16:53:35 | INFO     | [LoginPage] : Typing into element: ('id', 'input-email')
+2026-09-19 16:53:36 | INFO     | [LoginPage] : Typing into element: ('id', 'input-password')
+2026-09-19 16:53:36 | INFO     | [LoginPage] : Clicking element: ('css selector', "input[value='Login']")
+2026-09-19 16:53:38 | INFO     | [LoginPage] : Retrieved text 'Warning: No match for E-Mail Address and/or Password.' from element: ('css selector', 'div.alert-danger')
+2026-09-19 16:53:38 | INFO     | [TestLogin] : Testing invalid login for email: ''
+2026-09-19 16:53:38 | INFO     | [HomePage] : Navigating to Login page from Home page
+2026-09-19 16:53:38 | INFO     | [HomePage] : Clicking element: ('css selector', "a[title='My Account']")
+2026-09-19 16:53:38 | INFO     | [HomePage] : Clicking element: ('link text', 'Login')
+2026-09-19 16:53:38 | INFO     | [LoginPage] : Attempting login with email: 
+2026-09-19 16:53:38 | INFO     | [LoginPage] : Typing into element: ('id', 'input-email')
+2026-09-19 16:53:39 | INFO     | [LoginPage] : Typing into element: ('id', 'input-password')
+2026-09-19 16:53:39 | INFO     | [LoginPage] : Clicking element: ('css selector', "input[value='Login']")
+2026-09-19 16:53:41 | INFO     | [LoginPage] : Retrieved text 'Warning: No match for E-Mail Address and/or Password.' from element: ('css selector', 'div.alert-danger')
+2026-09-19 16:53:41 | INFO     | [TestLogin] : === Finished test_invalid_login_data_driven successfully ===
+2026-09-19 16:53:44 | INFO     | [DriverFactory] : Initializing WebDriver for browser: 'chrome' (Headless=False)
+2026-09-19 16:53:47 | INFO     | [TestLogin] : === Starting test_login_without_credentials ===
+2026-09-19 16:53:47 | INFO     | [HomePage] : Navigating to Login page from Home page
+2026-09-19 16:53:47 | INFO     | [HomePage] : Clicking element: ('css selector', "a[title='My Account']")
+2026-09-19 16:53:47 | INFO     | [HomePage] : Clicking element: ('link text', 'Login')
+2026-09-19 16:53:48 | INFO     | [LoginPage] : Clicking element: ('css selector', "input[value='Login']")
+2026-09-19 16:53:49 | INFO     | [TestLogin] : === Finished test_login_without_credentials successfully ===
+2026-09-19 16:53:53 | INFO     | [DriverFactory] : Initializing WebDriver for browser: 'chrome' (Headless=False)
+2026-09-19 16:53:57 | INFO     | [TestLogin] : === Starting test_valid_login ===
+2026-09-19 16:53:57 | INFO     | [HomePage] : Navigating to Login page from Home page
+2026-09-19 16:53:57 | INFO     | [HomePage] : Clicking element: ('css selector', "a[title='My Account']")
+2026-09-19 16:53:57 | INFO     | [HomePage] : Clicking element: ('link text', 'Login')
+2026-09-19 16:53:57 | INFO     | [LoginPage] : Attempting login with email: amotooricap9@gmail.com
+2026-09-19 16:53:57 | INFO     | [LoginPage] : Typing into element: ('id', 'input-email')
+2026-09-19 16:53:58 | INFO     | [LoginPage] : Typing into element: ('id', 'input-password')
+2026-09-19 16:53:58 | INFO     | [LoginPage] : Clicking element: ('css selector', "input[value='Login']")
+2026-09-19 16:54:22 | INFO     | [DriverFactory] : Initializing WebDriver for browser: 'chrome' (Headless=False)
+2026-09-19 16:54:25 | INFO     | [TestSearch] : === Starting test_search_data_driven_csv ===
+2026-09-19 16:54:25 | INFO     | [TestSearch] : Testing search for product: 'MacBook', expected: 'found'
+2026-09-19 16:54:25 | INFO     | [HomePage] : Searching for product: 'MacBook'
+2026-09-19 16:54:25 | INFO     | [HomePage] : Typing into element: ('name', 'search')
+2026-09-19 16:54:25 | INFO     | [HomePage] : Clicking element: ('css selector', '#search button')
+2026-09-19 16:54:26 | INFO     | [SearchResultsPage] : Found matching product in search results: 'MacBook'
+2026-09-19 16:54:26 | INFO     | [TestSearch] : Testing search for product: 'iPhone', expected: 'found'
+2026-09-19 16:54:26 | INFO     | [HomePage] : Searching for product: 'iPhone'
+2026-09-19 16:54:26 | INFO     | [HomePage] : Typing into element: ('name', 'search')
+2026-09-19 16:54:27 | INFO     | [HomePage] : Clicking element: ('css selector', '#search button')
+2026-09-19 16:54:27 | INFO     | [SearchResultsPage] : Found matching product in search results: 'iPhone'
+2026-09-19 16:54:27 | INFO     | [TestSearch] : Testing search for product: 'FitbitSmartwatch', expected: 'not_found'
+2026-09-19 16:54:27 | INFO     | [HomePage] : Searching for product: 'FitbitSmartwatch'
+2026-09-19 16:54:27 | INFO     | [HomePage] : Typing into element: ('name', 'search')
+2026-09-19 16:54:28 | INFO     | [HomePage] : Clicking element: ('css selector', '#search button')
+2026-09-19 16:54:28 | INFO     | [TestSearch] : === Finished test_search_data_driven_csv successfully ===
+2026-09-19 16:54:32 | INFO     | [DriverFactory] : Initializing WebDriver for browser: 'chrome' (Headless=False)
+2026-09-19 16:54:35 | INFO     | [TestSearch] : === Starting test_search_existing_product ===
+2026-09-19 16:54:35 | INFO     | [HomePage] : Searching for product: 'MacBook'
+2026-09-19 16:54:35 | INFO     | [HomePage] : Typing into element: ('name', 'search')
+2026-09-19 16:54:35 | INFO     | [HomePage] : Clicking element: ('css selector', '#search button')
+2026-09-19 16:54:39 | INFO     | [DriverFactory] : Initializing WebDriver for browser: 'chrome' (Headless=False)
+2026-09-19 16:54:42 | INFO     | [TestSearch] : === Starting test_search_non_existing_product ===
+2026-09-19 16:54:42 | INFO     | [HomePage] : Searching for product: 'FitbitSmartwatch'
+2026-09-19 16:54:42 | INFO     | [HomePage] : Typing into element: ('name', 'search')
+2026-09-19 16:54:42 | INFO     | [HomePage] : Clicking element: ('css selector', '#search button')
+2026-09-19 16:54:43 | INFO     | [SearchResultsPage] : Retrieved text 'There is no product that matches the search criteria.' from element: ('xpath', "//p[contains(text(),'There is no product that matches the search criteria.')]")
+2026-09-19 16:54:43 | INFO     | [TestSearch] : === Finished test_search_non_existing_product successfully ===
+2026-09-19 16:56:03 | INFO     | [DriverFactory] : Initializing WebDriver for browser: 'chrome' (Headless=False)
+2026-09-19 16:56:09 | INFO     | [TestLogin] : === Starting test_invalid_login_data_driven ===
+2026-09-19 16:56:09 | INFO     | [TestLogin] : Testing invalid login for email: 'invalid_user_99912@test.com'
+2026-09-19 16:56:09 | INFO     | [HomePage] : Navigating to Login page from Home page
+2026-09-19 16:56:09 | INFO     | [HomePage] : Clicking element: ('css selector', "a[title='My Account']")
+2026-09-19 16:56:09 | INFO     | [HomePage] : Clicking element: ('link text', 'Login')
+2026-09-19 16:56:09 | INFO     | [LoginPage] : Attempting login with email: invalid_user_99912@test.com
+2026-09-19 16:56:09 | INFO     | [LoginPage] : Typing into element: ('id', 'input-email')
+2026-09-19 16:56:10 | INFO     | [LoginPage] : Typing into element: ('id', 'input-password')
+2026-09-19 16:56:10 | INFO     | [LoginPage] : Clicking element: ('css selector', "input[value='Login']")
+2026-09-19 16:56:11 | INFO     | [LoginPage] : Retrieved text 'Warning: No match for E-Mail Address and/or Password.' from element: ('css selector', 'div.alert-danger')
+2026-09-19 16:56:11 | INFO     | [TestLogin] : Testing invalid login for email: 'amotooricap9@gmail.com'
+2026-09-19 16:56:11 | INFO     | [HomePage] : Navigating to Login page from Home page
+2026-09-19 16:56:11 | INFO     | [HomePage] : Clicking element: ('css selector', "a[title='My Account']")
+2026-09-19 16:56:11 | INFO     | [HomePage] : Clicking element: ('link text', 'Login')
+2026-09-19 16:56:12 | INFO     | [LoginPage] : Attempting login with email: amotooricap9@gmail.com
+2026-09-19 16:56:12 | INFO     | [LoginPage] : Typing into element: ('id', 'input-email')
+2026-09-19 16:56:12 | INFO     | [LoginPage] : Typing into element: ('id', 'input-password')
+2026-09-19 16:56:13 | INFO     | [LoginPage] : Clicking element: ('css selector', "input[value='Login']")
+2026-09-19 16:56:14 | INFO     | [LoginPage] : Retrieved text 'Warning: No match for E-Mail Address and/or Password.' from element: ('css selector', 'div.alert-danger')
+2026-09-19 16:56:14 | INFO     | [TestLogin] : Testing invalid login for email: ''
+2026-09-19 16:56:14 | INFO     | [HomePage] : Navigating to Login page from Home page
+2026-09-19 16:56:14 | INFO     | [HomePage] : Clicking element: ('css selector', "a[title='My Account']")
+2026-09-19 16:56:14 | INFO     | [HomePage] : Clicking element: ('link text', 'Login')
+2026-09-19 16:56:15 | INFO     | [LoginPage] : Attempting login with email: 
+2026-09-19 16:56:15 | INFO     | [LoginPage] : Typing into element: ('id', 'input-email')
+2026-09-19 16:56:16 | INFO     | [LoginPage] : Typing into element: ('id', 'input-password')
+2026-09-19 16:56:16 | INFO     | [LoginPage] : Clicking element: ('css selector', "input[value='Login']")
+2026-09-19 16:56:17 | INFO     | [LoginPage] : Retrieved text 'Warning: No match for E-Mail Address and/or Password.' from element: ('css selector', 'div.alert-danger')
+2026-09-19 16:56:17 | INFO     | [TestLogin] : === Finished test_invalid_login_data_driven successfully ===
+2026-09-19 16:56:20 | INFO     | [DriverFactory] : Initializing WebDriver for browser: 'chrome' (Headless=False)
+2026-09-19 16:56:25 | INFO     | [TestLogin] : === Starting test_login_without_credentials ===
+2026-09-19 16:56:25 | INFO     | [HomePage] : Navigating to Login page from Home page
+2026-09-19 16:56:25 | INFO     | [HomePage] : Clicking element: ('css selector', "a[title='My Account']")
+2026-09-19 16:56:25 | INFO     | [HomePage] : Clicking element: ('link text', 'Login')
+2026-09-19 16:56:26 | INFO     | [LoginPage] : Clicking element: ('css selector', "input[value='Login']")
+2026-09-19 16:56:27 | INFO     | [TestLogin] : === Finished test_login_without_credentials successfully ===
+2026-09-19 16:56:30 | INFO     | [DriverFactory] : Initializing WebDriver for browser: 'chrome' (Headless=False)
+2026-09-19 16:56:34 | INFO     | [TestLogin] : === Starting test_valid_login ===
+2026-09-19 16:56:34 | INFO     | [HomePage] : Navigating to Login page from Home page
+2026-09-19 16:56:34 | INFO     | [HomePage] : Clicking element: ('css selector', "a[title='My Account']")
+2026-09-19 16:56:34 | INFO     | [HomePage] : Clicking element: ('link text', 'Login')
+2026-09-19 16:56:35 | INFO     | [LoginPage] : Attempting login with email: amotooricap9@gmail.com
+2026-09-19 16:56:35 | INFO     | [LoginPage] : Typing into element: ('id', 'input-email')
+2026-09-19 16:56:35 | INFO     | [LoginPage] : Typing into element: ('id', 'input-password')
+2026-09-19 16:56:35 | INFO     | [LoginPage] : Clicking element: ('css selector', "input[value='Login']")
+2026-09-19 16:57:00 | INFO     | [DriverFactory] : Initializing WebDriver for browser: 'chrome' (Headless=False)
+2026-09-19 16:57:04 | INFO     | [TestSearch] : === Starting test_search_data_driven_csv ===
+2026-09-19 16:57:04 | INFO     | [TestSearch] : Testing search for product: 'MacBook', expected: 'found'
+2026-09-19 16:57:04 | INFO     | [HomePage] : Searching for product: 'MacBook'
+2026-09-19 16:57:04 | INFO     | [HomePage] : Typing into element: ('name', 'search')
+2026-09-19 16:57:04 | INFO     | [HomePage] : Clicking element: ('css selector', '#search button')
+2026-09-19 16:57:05 | INFO     | [SearchResultsPage] : Found matching product in search results: 'MacBook'
+2026-09-19 16:57:05 | INFO     | [TestSearch] : Testing search for product: 'iPhone', expected: 'found'
+2026-09-19 16:57:05 | INFO     | [HomePage] : Searching for product: 'iPhone'
+2026-09-19 16:57:05 | INFO     | [HomePage] : Typing into element: ('name', 'search')
+2026-09-19 16:57:05 | INFO     | [HomePage] : Clicking element: ('css selector', '#search button')
+2026-09-19 16:57:06 | INFO     | [SearchResultsPage] : Found matching product in search results: 'iPhone'
+2026-09-19 16:57:06 | INFO     | [TestSearch] : Testing search for product: 'FitbitSmartwatch', expected: 'not_found'
+2026-09-19 16:57:06 | INFO     | [HomePage] : Searching for product: 'FitbitSmartwatch'
+2026-09-19 16:57:06 | INFO     | [HomePage] : Typing into element: ('name', 'search')
+2026-09-19 16:57:07 | INFO     | [HomePage] : Clicking element: ('css selector', '#search button')
+2026-09-19 16:57:07 | INFO     | [TestSearch] : === Finished test_search_data_driven_csv successfully ===
+2026-09-19 16:57:10 | INFO     | [DriverFactory] : Initializing WebDriver for browser: 'chrome' (Headless=False)
+2026-09-19 16:57:16 | INFO     | [TestSearch] : === Starting test_search_existing_product ===
+2026-09-19 16:57:16 | INFO     | [HomePage] : Searching for product: 'MacBook'
+2026-09-19 16:57:16 | INFO     | [HomePage] : Typing into element: ('name', 'search')
+2026-09-19 16:57:16 | INFO     | [HomePage] : Clicking element: ('css selector', '#search button')
+2026-09-19 16:57:17 | INFO     | [SearchResultsPage] : Found matching product in search results: 'MacBook'
+2026-09-19 16:57:17 | INFO     | [TestSearch] : === Finished test_search_existing_product successfully ===
+2026-09-19 16:57:20 | INFO     | [DriverFactory] : Initializing WebDriver for browser: 'chrome' (Headless=False)
+2026-09-19 16:57:24 | INFO     | [TestSearch] : === Starting test_search_non_existing_product ===
+2026-09-19 16:57:24 | INFO     | [HomePage] : Searching for product: 'FitbitSmartwatch'
+2026-09-19 16:57:24 | INFO     | [HomePage] : Typing into element: ('name', 'search')
+2026-09-19 16:57:24 | INFO     | [HomePage] : Clicking element: ('css selector', '#search button')
+2026-09-19 16:57:25 | INFO     | [SearchResultsPage] : Retrieved text 'There is no product that matches the search criteria.' from element: ('xpath', "//p[contains(text(),'There is no product that matches the search criteria.')]")
+2026-09-19 16:57:25 | INFO     | [TestSearch] : === Finished test_search_non_existing_product successfully ===
